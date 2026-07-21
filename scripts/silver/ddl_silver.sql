@@ -20,6 +20,7 @@ GO
 
 CREATE TABLE silver.crm_product_info (
 	product_id			INT,
+	category_id			NVARCHAR(50),
 	product_key			NVARCHAR(50),
 	product_name		NVARCHAR(50),
 	product_cost		INT,
